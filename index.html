@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#DF631F">
+	<title>Website</title>
+	<link rel="stylesheet" type="text/css" href="output.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="lib/tiny-slider_2.9.4_tiny-slider.css">
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2968375611377304"
+     crossorigin="anonymous"></script>
+	 <!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSQDQ4HVK8"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-XSQDQ4HVK8');
+	</script>
+</head>
+<body class="flex flex-col">
+	<header class="bg-gray-200 flex-col w-full sticky z-50 top-0">
+		<div class="p-2 bg-[#DF631F] text-white flex flex-col sm:flex-row sm:justify-between transition-all ">
+			<div class="flex flex-row justify-between items-center grow">
+				<a href="#" class="text-xl sm:text-2xl sm:ml-[15%] whitespace-nowrap block mb-2 mt-2 text-center grow">
+					<b>EDMILSON CONSTRUÇÕES</b>
+				</a>
+				<button class="flex flex-col gap-1.5 invert sm:hidden menu-button  rounded-lg p-1 justify-center mr-1">
+					<div class="bg-black w-8 h-1.5 transition-all
+					" id="top-hamburger"></div>
+					<div class="bg-black w-8 h-1.5 transition-all duration-200
+					" id="middle-hamburger"></div>
+					<div class="bg-black w-8 h-1.5 transition-all
+					" id="bottom-hamburger"></div>
+				</button>
+			</div>
+			<nav class="sm:gap-3 opacity-0 max-h-0 overflow-hidden sm:opacity-100 sm:overflow-auto sm:block sm:max-h-[300px] menu-nav transition-all mt-2 duration-500">
+				<ul class="flex gap-1 flex-col sm:flex-row">
+					<li class="bg-gray-200 text-black rounded-md flex hover:bg-gray-50 transition-all">
+						<a href="/blog/" class="w-full p-2">Blog</a>
+					</li>
+					<li class="bg-gray-200 text-black rounded-md flex hover:bg-gray-50 transition-all">
+						<a href="#" class="w-full p-2">FAQ</a>
+					</li>
+					<li class="flex flex-row">
+						<div class="bg-gradient-to-r from-green-600 to-green-700 mr-1 text-white rounded-md flex hover:overflow-hidden hover:from-green-700 hover:to-green-800 transition-all">
+							<a class="w-full self-initial drop-shadow-lg flex flex-row p-1 whatsapp-button" href="https://wa.me/558799409983/?text=_">
+								<img class="self-center" width="22" src="assets/img/whatsapp-icon-48.png" alt="">
+								<span class="self-center ml-1 sm:hidden"><b>Whatsapp</b></span>
+							</a>	
+						</div>
+						<div class="bg-gradient-to-r from-[#d62976] via-[#962fbf] to-[#4f5bd5] text-white rounded-md flex 
+						hover:overflow-hidden hover:from-[#a62476] via-[#962fbf] hover:to-[#4f1bd5] transition-all">
+							<a class="w-full self-initial drop-shadow-lg flex flex-row p-1 whatsapp-button" href="https://instagram.com/user">
+								<img class="self-center" width="30" src="assets/img/instagram-icon.png" alt="">
+								<span class="self-center ml-1 sm:hidden"><b>Instagram</b></span>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="flex flex-col sm:flex-row items-center justify-center bg-[#db7842] ">
+			<div class="bg-[#db7842] items-center text-white flex sm:justify-center sm:mr-[2%] sm:h-8 sm:flex-row h-10 ">
+				<img class="grayscale mr-1 " width="22" src="assets/img/whatsapp-icon-48.png" alt="">
+				<span class="text-sm whitespace-nowrap">Faça seu orçamento on-line</span>
+				<a class="text-sm pl-1 hover:text-base transition-all box-border whitespace-nowrap  sm:hover:underline" href="https://wa.me/558799409983/?text=_"><b>(87) 91234-5678</b></a>
+			</div>
+			<div class="bg-[#db7842] items-center text-white flex sm:justify-center sm:h-8 sm:flex-row h-10">
+				<img class="invert mr-1" width="22" src="assets/img/location-pin.png" alt="">
+				<span class="text-sm whitespace-nowrap">Cedro - PE, 56-130000, Rua da XYZ, N° 1234</span>
+			</div>
+		</div>
+	</header>
+	<main class="flex-1 grow min-h-[500px]">
+		<div class="relative">
+			<div id="controls" class="z-10 absolute top-[50%] w-full flex pointer-events-none">
+				<button class="previous bg-white w-12 h-12 flex items-center pointer-events-auto justify-center pr-2 rounded-md ml-1 outline outline-2 outline-black opacity-[70%] hover:opacity-[80%] transition-all">
+					<img class="rotate-180 absolute w-8 h-8" src="assets/img/angle-arrow-pointing-to-right.png" alt="">
+				</button>
+				<button class="next bg-white w-12 h-12 ml-auto flex items-center justify-center pr-2 pointer-events-auto rounded-md mr-1 outline outline-2 opacity-[70%] hover:opacity-[80%] transition-all">
+					<img class="absolute " width="30" src="assets/img/angle-arrow-pointing-to-right.png" alt="">
+				</button>
+			</div>
+			<div class="my-slider relative">
+				<div>
+					<div class="">
+						<img class="" src="assets/img/slider-example-1.png" alt="" srcset="">
+					</div>
+				</div>
+				<div>
+					<div class="">
+						<img class="" src="assets/img/slider-example-2.png" alt="" srcset="">
+					</div>
+				</div>	
+			</div>
+			
+		</div>
+	</main>
+	<footer class="flex justify-center items-center p-2 bg-[#DF631F] text-white bottom-0 w-full flex-col mt-20">
+		<div class="flex justify-center gap-24">
+			<div class="">
+				<h2 class="font-bold mb-2">Contato</h2>
+				<ul class="space-y-1">
+					<li class="flex flex-row">
+						<img class="grayscale mr-1.5 w-[23px] h-[23px]" src="assets/img/whatsapp-icon-48.png" alt="">
+						<a class="text-sm transition-all box-border whitespace-nowrap  sm:hover:underline" href="https://wa.me/558799409983/?text=_">(87) 91234-5678</a>
+					</li>
+					<li class="flex flex-row">
+						<img class="grayscale  mr-1 w-[27px]" src="assets/img/instagram-icon.png" alt="">
+						<a href="">@tag.do.insta</a>
+					</li>
+				</ul>
+			</div>
+			<div class="">
+				<h2 class="font-bold mb-2">Icones usados</h2>
+				<ul>
+					<li>
+						<a href="https://www.flaticon.com/free-icons/location-pin" title="location pin icons" class="text-blue-800 hover:underline text-sm">Location pin by Pixel perfect - Flaticon</a>
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons" class="text-blue-800 hover:underline text-sm">Arrow icons by Dave Gandy - Flaticon</a> 
+					</li>
+					<li>
+						<a href="https://www.flaticon.com/free-icons/whatsapp" title="whatsapp icons" class="text-blue-800 hover:underline text-sm">Whatsapp icons by Freepik - Flaticon</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<span class="mt-2">Todos os direitos reservados © 2023 Edmilson Construções</span>
+	</footer>
+
+	<script type='text/javascript' src="lib/tiny-slider_2.9.2_min_tiny-slider.js"></script>
+	<script src="scripts/index.js"></script>
+</body>
+</html>
